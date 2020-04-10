@@ -20,5 +20,13 @@ def output_array(array)
     puts array[counter]
     counter += 1
   end
+end
 
+def return_string_array(array)
+  new_array = []
+  counter = 0
+  while array.length do
+      new_array.push(array[counter].to_s)
+  end
+  return new_array
 end
