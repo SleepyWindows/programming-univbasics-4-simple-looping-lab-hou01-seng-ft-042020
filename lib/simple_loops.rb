@@ -27,6 +27,7 @@ def return_string_array(array)
   counter = 0
   while array.length do
       new_array.push(array[counter].to_s)
+      counter += 1
   end
   return new_array
 end
